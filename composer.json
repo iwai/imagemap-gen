@@ -1,0 +1,6 @@
+{
+    "require": {
+        "chh/optparse": "^0.1.0",
+        "ext-gd": "*"
+    }
+}
