@@ -89,7 +89,7 @@ function resize_image($source, $toWidth, $ext = 'jpg', $aspect_ratio = false, $d
 
     $resized_path = sprintf('%s/%s', $destination_path, $toWidth);
     if ($ext == 'jpg' || $ext == 'jpeg') {
-        ImageJpeg($new_image, $resized_path);
+        ImageJpeg($new_image, $resized_path, 100);
     } elseif ($ext == 'png') {
         ImagePng($new_image, $resized_path);
     } else {
